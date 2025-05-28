@@ -1,0 +1,103 @@
+.header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px ;
+}
+section{
+    background-image:url(sign-in2.png);
+    border-radius: 20px;
+    padding: 0 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    
+}
+body{
+     background: linear-gradient(244deg , rgb(255, 137, 235) 0%, rgb(149, 226, 149) 100%);
+}
+table{
+    font-size: 1.5rem;
+    color: black;
+}
+input{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: green;
+    padding: 5px;
+}
+i{
+    font-size: 1.3rem;
+}
+input{
+    padding: 10px;
+}
+/* button{
+    background-color: rgb(2, 134, 13);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border-color:  rgb(2, 134, 13);
+    border-style: dot;
+    width: 100px;
+}
+button:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    background-color: blue;
+    color: white;
+}
+button:active{
+    opacity: 0.7;
+    background-color: red;
+} */
+label{
+    font-family: "Montserrat" , sans-serif;
+    font-size: 20px;
+    /* background: linear-gradient(244deg , rgb(255, 137, 235) 0%, rgb(149, 226, 149) 100%);
+    -webkit-background-clip: text;
+    color: transparent; */
+
+}
+.lab{
+    font-size: 10px;
+    font-size: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 8px;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: center;
+}
+.btn{
+    background-color: rgb(2, 134, 13);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border-color:  rgb(2, 134, 13);
+    border-style: dot;
+    width: 100px;
+    border-style: solid;
+    
+}
+.btn:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+    background-color: blue;
+    color: white;
+}
+.btn:active{
+    opacity: 0.7;
+    background-color: red;
+}
+.text{
+    font-family: "Playwrite IT Moderna", serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 3rem;
+}
