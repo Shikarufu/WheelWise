@@ -6,12 +6,20 @@
 }
 section{
     background-image:url(sign-in2.png);
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 0 100px;
     padding-bottom: 100px;
     padding-top: 100px;
     display: flex;
+    align-items: center;
     
+}
+@media (max-width:600px){
+    section{
+        display: flex;
+        justify-content: center;
+        width: 200px;
+    }
 }
 body{
      background: linear-gradient(244deg , rgb(255, 137, 235) 0%, rgb(149, 226, 149) 100%);
