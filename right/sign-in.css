@@ -4,21 +4,39 @@
     flex-wrap: wrap;
     margin-top: 100px ;
 }
-section{
-    background-image:url(sign-in2.png);
-    border-radius: 40px;
-    padding: 0 100px;
-    padding-bottom: 100px;
-    padding-top: 100px;
-    display: flex;
-    align-items: center;
+/* section{
     
+    
+} */
+table{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+option{
+    text-align: center;
+}
+span{
+    font-size: 1.3rem ;
+}
+legend{
+    text-align: center;
+    font-family: "Playwrite IT Moderna", sans-serif;
+    font-size: 25px;
+}
+form{
+    width: 500px;
+}
+label{
+    font-size: 25px;
 }
 @media (max-width:600px){
     section{
         display: flex;
         justify-content: center;
-        width: 200px;
+    }
+    label{
+        font-size: 20px;
     }
 }
 body{
@@ -38,7 +56,7 @@ i{
     font-size: 1.3rem;
 }
 input{
-    padding: 10px;
+    padding:10px;
 }
 /* button{
     background-color: rgb(2, 134, 13);
@@ -59,14 +77,14 @@ button:active{
     opacity: 0.7;
     background-color: red;
 } */
-label{
+ /* label{
     font-family: "Montserrat" , sans-serif;
     font-size: 20px;
     /* background: linear-gradient(244deg , rgb(255, 137, 235) 0%, rgb(149, 226, 149) 100%);
     -webkit-background-clip: text;
-    color: transparent; */
+    color: transparent; */ 
 
-}
+
 .lab{
     font-size: 10px;
     font-size: initial;
