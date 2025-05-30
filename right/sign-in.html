@@ -16,88 +16,112 @@
 <body>
     <h1 class="text">Sign-Up</h1>
     <div class="header">
-        
-        <section>
-            <center>
-                    
-                <table>
+        <form action="">
+            <fieldet>
+                <legend>My form </legend>
+                <table cellpadding="10px" cellspacing="0">
                     <tr>
                         <td>
-                            <label for="">
-                                First Name:
-                                
-                            </label>
-                            
+                            <label>First name:</label>
                         </td>
-                        <td>
-                            <input type="text" placeholder="First Name">
+                        <td >
+                            <input type="text" placeholder="Enter your name">
                         </td>
-                
-                    
                     </tr>
+                    
                     <tr>
                         <td>
-                            <label for="">
-                                Second Name:
-                                
-                            </label>
-                            
+                            <label for="">Second name: </label>
                         </td>
                         <td>
-                            <input type="text" placeholder="Second Name">
+                            <input type="text" placeholder="Enter  your name">
                         </td>
-                       
                     </tr>
+           
                     <tr>
                         <td>
-                            <label for="">
-                                Gender:
-                            </label>
+                            <label for="">Place of birth:</label>
                         </td>
                         <td>
-                            <input type="radio" name="gender" ><label class="lab" for=""><i>Male</i></label>
-                            <input type="radio"  name="gender"><label class="lab" for=""><i>Female</i></label>
+                            <select style="padding:10px 0 10px 0; width: 200px; border-radius: 20px;">
+                                <option value="select" disabled>select</option>
+                                <option value="Tokyo">Tokyo</option>
+                                <option value="Osaka">Osaka</option>
+                                <option value="Shibuya">Shibuya</option>
+                                <option value="Phnom Penh">Phnom Penh</option>
+                                <option value="other">Other</option>
 
+                            </select>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Date of birth
+                            </label>
+                        </td>
+                        <td>
+                            <input type="date">
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <label for="">
-                                Email:
+                                Gender
+                            </label>
+                        </td>
+                        <br>
+                        <td>
+                            <input type="radio" name="gender"><span>Male</span>
+                            <input type="radio" name="gender"><span>Female</span>
+                        </td>
+                    </tr>
+        
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>
+                                Gmail:
                             </label>
                         </td>
                         <td>
-                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Enter your gmail">
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <label for="">
-                                Password:
+                            <label>
+                                Password
                             </label>
                         </td>
                         <td>
-                            <input type="password" placeholder="Password">
+                            <input type="password" placeholder="Remember your password🧐">
                         </td>
                     </tr>
-                    
-                   
                 </table>
-                <div class="btnn">
-                        <a href="response.html">
-                            <button class="btn">
-                                Submit
-                            </button>
-                        </a>
-                        <a href="../main.html">
-                            <button class="btn">
-                                <span>Home</span>
-                            </button>
-                        </a>
-                </div>
-            </center>
-        </section>
+            </fieldet>
+            
+        </form>
+       
+        
     </div>
+    <section style="display: flex; justify-content: center;">
+         <div class="btnn">
+                <a href="response.html">
+                    <button onclick="alert('Your form has submitted successfully')" class="btn">
+                        Submit
+                    </button>
+                </a>
+                <a href="../main.html">
+                    <button class="btn">
+                        Home
+                    </button>
+                </a>
+    </div>
+    </section>
     
 </body>
 </html>
